@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "strings.c"
+//#include "strings.c"
 #include "strings.h"
 
 int main() {

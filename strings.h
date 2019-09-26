@@ -1,1 +1,1 @@
-int strlen(char *s);
+int customStrlen(char *s);

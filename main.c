@@ -11,4 +11,9 @@ int main() {
 	int systemOutput = strlen(first); //expecting 5
 	int customOutput = customStrlen(first); //also 5
 	printf("TEST: System strlen returns %i, custom strlen returns %i\n", systemOutput, customOutput);
+	
+	char dest[6] = "ABCDE";
+	char source[5] = "abcd";
+	customStrncpy(dest, source, 3);
+	printf("TEST: Expecting \"abcDE\", actually %s\n", dest);
 }
